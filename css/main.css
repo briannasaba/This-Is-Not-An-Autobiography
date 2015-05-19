@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  color: #878787;
+  margin: 0;
+  font: 1em/1.5;
+  font-family: "GT Walsheim Pro Trial";
+  font-weight: light;
+}
+
+#home {
+  background-color: #fbed28;
+  height: 570px;
+}
+
+#side-menu {
+  padding: 30px;
+}
+
+#side-menu ul li {
+  line-height: 2;
+  font-size: 1.5em;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  margin-top: 12px;
+  font-size:14px;
+}
+
+a {
+  text-decoration: none;
+  color: #6C7A89;
+}
+
+a:hover {
+  color: #000;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+a.nav-active{
+    color:#000;
+    text-decoration: underline;
+}
+
+#title {
+  font-family: "GT Walsheim Pro Trial", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  color: black;
+  margin-top: 150px;
+}
+
+.arrow-up {
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 70px;
+}
+
+.arrow-down {
+  text-align: center;
+  padding-top: 20px;
+}
+
+i {
+  color: black;
+}
+
+#about {
+  width: 45%;
+  margin: 0 auto;
+  border-bottom: solid black thin;
+}
+
+#about p {
+  padding-top: 200px;
+  padding-bottom:30px;
+  font-family: "GT Sectra Fine Trial";
+  line-height:1.2;
+  font-size: 24px;
+  text-align:center;
+}
+
+#menu {
+  padding-top: 200px;
+  padding-bottom:350px;
+  padding-left:100px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#menu li {
+  font-size: 24px;
+  line-height:2;
+}
+
+.col {
+  width:50%;
+  float:left;
+}
+
+.col li:hover {
+  background-color: #fbed28;
+  cursor: pointer;
+}
+
+.col li {
+  width: 65%;
+}
+
+.col li a:select {
+  background-color: #fbed28;
+}
+
+#palettes {
+  width: 62%;
+  height: 200px;
+  padding-top:50px;
+  margin: 0 auto;
+}
+
+#palettes ul li {
+  display: inline-block;
+}
+
+#side-p {
+  width: 25%;
+  float: right;
+  margin-right: 10px;
+  line-height:1.5;
+  color: black;
+  font-size: 16px;
+}
+
+.month {
+  text-align: center;
+  font-size: 1.5em;
+  color: #000;
+  font-family: "GT Sectra Fine Trial";
+}
+
+#colophon {
+  padding-top: 200px;
+  padding-bottom: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#colophon {
+  font-size: 1.1em;
+  color: black;
+  font-family: "GT Sectra Fine Trial";
+  font-size: 18px;
+  text-align:center;
+  line-height:2;
+}
+
+#bottom {
+  padding-top: 150px;
+  padding-bottom: 0px;
+  margin-top: 40px;
+  background-color: #fbed28;
+}

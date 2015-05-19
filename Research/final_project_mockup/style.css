@@ -1,0 +1,66 @@
+h1 {
+  font-family: "Avenir";
+  color: #739aa7;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Avenir";
+  color: #1c2524;
+  font-size:24px;
+  text-align: center;
+}
+
+hr {
+  max-width: 95%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+
+p {
+  font-family:"Charter";
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+h3 {
+  font-family: "Avenir";
+  color: #1c2524;
+  font-size:24px;
+  margin-top: 70px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+
+ul {
+  font-family:"Charter";
+  font-size: 16px;
+  color: #000000;
+  margin-left: 300px;
+  margin-right: 300px;
+
+  width: 50%;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.image1text {
+  font-family: "Rockwell";
+  font-size:30px;
+  color: #a42724;
+  margin-left: 500px;
+  margin-right: 200px;
+}
+#a42724
